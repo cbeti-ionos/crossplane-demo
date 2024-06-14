@@ -1,0 +1,4 @@
+crossplane:
+  provider:
+    # other providers can be added here
+    packages: [ghcr.io/ionos-cloud/crossplane-provider-ionoscloud:latest]

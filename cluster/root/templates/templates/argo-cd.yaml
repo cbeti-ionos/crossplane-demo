@@ -8,9 +8,9 @@ spec:
   project: default
   source:
     # replace with the actual registry
-    repoURL: https://github.com/ionos-cloud/crossplane-provider-ionoscloud.git
-    path: charts/argo-cd
-    targetRevision: feat/argocd
+    repoURL: https://github.com/cbeti-ionos/crossplane-demo.git
+    path: cluster/argo-cd
+    targetRevision: HEAD
   destination:
     server: https://kubernetes.default.svc
     namespace: argocd

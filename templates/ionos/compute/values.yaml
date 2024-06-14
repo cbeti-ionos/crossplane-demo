@@ -1,0 +1,5 @@
+Deployment:
+  Name: "example-ionos"
+  Size: "S"
+  Cores: 2
+  Ram: 4
